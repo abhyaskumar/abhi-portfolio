@@ -122,29 +122,27 @@ const Hero = () => {
         </div>
 
         {/* Buttons */}
-        <div className='mt-7 flex flex-wrap gap-6'>
-          <a
-            href="#Contact"
-            className="relative inline-block px-10 py-3 font-bold text-sky-600 border border-sky-600 rounded-xl overflow-hidden group"
-          >
-            <span className="absolute inset-0 bg-sky-600 transition-transform duration-500 ease-in-out transform group-hover:translate-x-full"></span>
-            <span className="relative z-10 group-hover:text-white text-black transition duration-300">
-              Hire me
-            </span>
-          </a>
+        <div className="mt-7 flex flex-wrap gap-4 justify-between">
+  <a
+    href="#Contact"
+    className="relative inline-block px-4 py-3 font-bold text-sky-600 border border-sky-600 rounded-xl overflow-hidden group flex-1 text-center"
+  >
+    <span className="absolute inset-0 bg-sky-600 transition-transform duration-500 ease-in-out transform group-hover:translate-x-full"></span>
+    <span className="relative z-10 group-hover:text-white text-black transition duration-300">
+      Hire me
+    </span>
+  </a>
 
+  <a
+    href="/Resume.pdf"
+    download
+    className="relative inline-block px-4 py-3 font-bold text-white overflow-hidden group rounded-xl border border-sky-600 flex-1 text-center"
+  >
+    <span className="absolute inset-0 w-0 bg-sky-600 transition-all duration-300 ease-out group-hover:w-full"></span>
+    <span className="relative z-10 group-hover:text-black">Download CV</span>
+  </a>
+</div>
 
-          <a
-            href="/Resume.pdf"
-            download
-            className="relative inline-block px-10 py-3 font-bold text-white overflow-hidden group rounded-xl border border-sky-600"
-          >
-            <span className="absolute inset-0 w-0 bg-sky-600 transition-all duration-300 ease-out group-hover:w-full"></span>
-            <span className="relative z-10 group-hover:text-black">Download CV</span>
-          </a>
-
-
-        </div>
       </div>
     </div>
   );
