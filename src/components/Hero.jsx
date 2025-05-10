@@ -40,7 +40,7 @@ const Hero = () => {
           </h1>
           <h1 className='text-4xl md:text-4xl font-bold'>I am a Passionate</h1>
           <ReactTyped
-            className='text-sky-400 text-3xl md:text-4xl font-bold'
+            className='text-sky-400 text-4xl md:text-4xl font-bold'
             strings={["Full stack web developer", "Programmer", "Coder", "Freelancer"]}
             typeSpeed={40}
             backSpeed={50}
