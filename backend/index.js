@@ -6,7 +6,10 @@ const nodemailer = require('nodemailer');
 require('dotenv').config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://abhi-portfolio-uptt.onrender.com'
+}));
+
 app.use(express.json());
 
 // 📌 MongoDB Schema

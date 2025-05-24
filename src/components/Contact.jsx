@@ -18,7 +18,8 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('/api/contact', formData);
+      // const res = await axios.post('/api/contact', formData);
+      const res = await axios.post('https://abhi-portfolio-ql3v.onrender.com/api/contact', formData);
       alert('Message sent successfully!');
       setFormData({ fullName: '', email: '', phone: '', subject: '', message: '' });
     } catch (error) {
