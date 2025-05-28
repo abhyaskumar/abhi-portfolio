@@ -14,7 +14,7 @@ import { DiMongodb } from "react-icons/di";
 
 const Hero = () => {
   return (
-    <div id='Home' name="Home" className='w-full min-h-screen bg-gray-950 text-white flex flex-col md:flex-row pt-[65px]'>
+    <div id='Home' name="Home" className='w-full min-h-screen bg-gray-950 text-white dark:bg-white dark:text-black flex flex-col md:flex-row pt-[65px] transition-colors duration-300 shadow-md'>
 
       {/* Image Section */}
       <div className='w-full p-8 md:p-12 md:w-1/2 order-1 md:order-2 flex justify-center items-center'>
@@ -54,7 +54,7 @@ const Hero = () => {
                     href="https://api.whatsapp.com/send?phone=919693040766&text=Hi%20Abhyas!%20I%20visited%20your%20portfolio."
                     target="_blank"
                     rel="noopener noreferrer"
-                    className='text-white'
+                    
                   >
                     <FaWhatsapp />
                   </a>
@@ -116,7 +116,7 @@ const Hero = () => {
             className="relative inline-block px-4 py-3 font-bold text-sky-600 border border-sky-600 rounded-xl overflow-hidden group flex-1 text-center"
           >
             <span className="absolute inset-0 bg-sky-600 transition-transform duration-500 ease-in-out transform group-hover:translate-x-full"></span>
-            <span className="relative z-10 group-hover:text-white text-black transition duration-300">
+            <span className="relative z-10 group-hover:text-white dark:group-hover:text-black text-black  transition duration-300">
               Hire me
             </span>
           </a>
@@ -127,11 +127,14 @@ const Hero = () => {
             className="relative inline-block px-4 py-3 font-bold text-white overflow-hidden group rounded-xl border border-sky-600 flex-1 text-center"
           >
             <span className="absolute inset-0 w-0 bg-sky-600 transition-all duration-300 ease-out group-hover:w-full"></span>
-            <span className="relative z-10 group-hover:text-black">Download CV</span>
+            <span className="relative z-10 group-hover:text-black text-white dark:text-black">Download CV</span>
           </a>
+          
         </div>
       </div>
+      
     </div>
+    
   );
 };
 

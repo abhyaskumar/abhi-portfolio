@@ -17,7 +17,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const Skills = () => {
     return (
-        <div id="Skills" name="Skills" className="min-h-screen bg-[#0f1115] text-white py-16 px-4 flex flex-col items-center justify-center">
+        <div id="Skills" name="Skills" className="min-h-screen bg-[#0f1115] text-white dark:bg-white dark:text-black py-16 px-4 flex flex-col items-center justify-center">
             {/* Heading */}
             <h2 className="text-4xl font-bold text-center mb-12">
                 My <span className="text-cyan-400">Skills</span>

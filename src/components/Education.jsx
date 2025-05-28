@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const EducationTimeline = () => {
   return (
-    <div id="Education" name="Education"  className="min-h-screen bg-gray-950 text-white flex items-center justify-center px-4 py-16">
+    <div id="Education" name="Education"  className="min-h-screen bg-gray-950 text-white dark:bg-white dark:text-black flex items-center justify-center px-4 py-16">
       <div className="max-w-3xl w-full">
         {/* Heading */}
         <h1 className="text-3xl md:text-4xl font-bold text-center text-cyan-400 mb-12">
@@ -22,12 +22,12 @@ const EducationTimeline = () => {
             className="relative"
           >
             <div className="absolute -left-3  w-4 h-4 bg-cyan-500 rounded-full"></div>
-            <div className="bg-[#12161d] border-4 border-cyan-500  rounded-2xl p-5 ml-4">
+            <div className="bg-[#12161d] dark:bg-white border-4 border-cyan-500  rounded-2xl p-5 ml-4">
               <div className="flex items-center gap-2 text-cyan-400 text-sm mb-1 ">
                 <FaCalendarAlt />
                 <span>2020</span>
               </div>
-              <h3 className="text-xl font-semibold">Matric – S.S plus 2 High School Bero, Ranchi Jharkhand</h3>
+              <h3 className="text-xl font-semibold ">Matric – S.S plus 2 High School Bero, Ranchi Jharkhand</h3>
               <p className="text-sm mt-1">From JAC Board - Percentage: 86.80%</p>
             </div>
           </motion.div>
@@ -40,7 +40,7 @@ const EducationTimeline = () => {
             className="relative"
           >
             <div className="absolute -left-3 top-1 w-4 h-4 bg-cyan-500 rounded-full"></div>
-            <div className="bg-[#12161d] border-4 border-cyan-500 rounded-2xl p-5 ml-4">
+            <div className="bg-[#12161d] dark:bg-white border-4 border-cyan-500 rounded-2xl p-5 ml-4">
               <div className="flex items-center gap-2 text-cyan-400 text-sm mb-1">
                 <FaCalendarAlt />
                 <span>2020–2022</span>
@@ -58,7 +58,7 @@ const EducationTimeline = () => {
             className="relative"
           >
             <div className="absolute -left-3 top-1 w-4 h-4 bg-cyan-500 rounded-full"></div>
-            <div className="bg-[#12161d] border-4 border-cyan-500 rounded-2xl p-5 ml-4">
+            <div className="bg-[#12161d] dark:bg-white border-4 border-cyan-500 rounded-2xl p-5 ml-4">
               <div className="flex items-center gap-2 text-cyan-400 text-sm mb-1">
                 <FaCalendarAlt />
                 <span>2022–2025</span>

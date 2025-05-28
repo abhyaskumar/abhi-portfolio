@@ -4,7 +4,7 @@ const About = () => {
   return (
 <section
   id='About'
-  className="scroll-mt-28 w-full min-h-screen bg-[#0d1117] text-white flex flex-col items-center justify-center px-4 py-16"
+  className="scroll-mt-28 w-full min-h-screen  bg-gray-900 text-white dark:bg-white dark:text-black flex flex-col items-center justify-center px-4 py-16"
 >
   {/* Heading */}
   <h2 className="text-4xl font-bold mb-4">
@@ -28,25 +28,24 @@ const About = () => {
   </h3>
 
   {/* Description */}
-  <p className="text-sm font-semibold md:text-base text-gray-300 text-center max-w-3xl px-4 leading-relaxed mb-4">
-    I'm a passionate web designer and developer. I bring digital products to life by merging technical
-    skills with visual creativity, focusing on user experience, pixel-perfect designs, and clear,
-    efficient code. I started my journey as a web developer in 2023 and have since embraced new
-    challenges and technologies.
+  <p className="text-sm font-semibold md:text-base text-gray-300 dark:text-black text-center max-w-3xl px-4 leading-relaxed mb-4">
+  Hi, I'm Abhyas Kumar
+I’ve been learning and growing in the field of web development since 2022. What started as curiosity has turned into 
+a passion for building clean,user-friendly websites and web applications. 
+
   </p>
-  <p className="text-sm font-semibold md:text-base text-gray-300 text-center max-w-3xl px-4 leading-relaxed mb-5">
-    Now, in my early thirties, I build cutting-edge web applications using AI, Figma, and more. As you
-    know that my guest blogging and content writing work, so over the past six months, I have honed my
-    abilities in guest blogging and link building, successfully contributing to various platforms and
-    enhancing their online presence.
+  <p className="text-sm font-semibold md:text-base text-gray-300  dark:text-black text-center max-w-3xl px-4 leading-relaxed mb-5">
+  I focus on blending creativity with code to create smooth digital experiences that not only look good but also work great.
+  Over the years, I’ve explored various tools and techniques, taken on new challenges, and kept sharpening my skills to stay 
+  up-to-date with the latest in web design and development.
   </p>
-  <p className="text-sm font-semibold md:text-base text-gray-300 text-center max-w-3xl px-4 leading-relaxed mb-5">
-    One last thing — available for freelance work! Feel free to reach out and say hello ✌️
+  <p className="text-sm font-semibold md:text-base text-gray-300  dark:text-black text-center max-w-3xl px-4 leading-relaxed mb-5">
+  Always open to exciting freelance opportunities — let’s connect and create something amazing together!
   </p>
 
   <button className="relative inline-block px-8 py-4 font-bold text-white overflow-hidden group rounded-full border border-sky-400">
   <span className="absolute inset-0 w-0 bg-sky-400 transition-all duration-300 ease-out group-hover:w-full"></span>
-  <span className="relative z-10 group-hover:text-black">Read more</span>
+  <span className="relative z-10 group-hover:text-black  dark:text-black">Read more</span>
 </button>
 
 </section>

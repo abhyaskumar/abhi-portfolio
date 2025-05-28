@@ -28,9 +28,9 @@ const Contact = () => {
   };
 
   return (
-    <div id="Contact" className="min-h-screen bg-[#0f1321] flex items-center justify-center px-4">
+    <div id="Contact" className="min-h-screen bg-[#0f1321] dark:bg-white dark:text-black flex items-center justify-center px-4">
       <div className="w-full max-w-4xl">
-        <h2 className="text-center text-4xl font-extrabold text-white mb-8">
+        <h2 className="text-center text-4xl font-extrabold text-white mb-8 dark:text-black">
           Contact <span className="text-cyan-400">Me!</span>
         </h2>
 
