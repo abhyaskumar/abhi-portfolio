@@ -19,8 +19,8 @@ const Hero = () => {
       {/* Image Section */}
       <div className='w-full p-8 md:p-12 md:w-1/2 order-1 md:order-2 flex justify-center items-center'>
         <img
-          className='w-[350px] md:w-[450px] rounded-full object-cover'
-          src="/images/Ratioabhi.webp"
+          className='w-[380px] md:w-[480px] rounded-full object-cover'
+          src="/images/Abhyas.webp"
           alt="Abhyas"
         />
       </div>
