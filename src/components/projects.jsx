@@ -6,22 +6,22 @@ const projects = [
     title: 'Portfolio Website',
     description: 'My personal portfolio website built with React, TailwindCSS, and React Icons, showcasing my skills and projects.',
     github: 'https://github.com/abhyaskumar',
-    demo: '#Home', // you can replace with live URL if hosted
+    demo: 'https://abhi-portfolio-uptt.onrender.com/', // you can replace with live URL if hosted
     tech: ['React', 'TailwindCSS', 'Dark Mode', 'Responsive'],
   },
   {
-    title: 'E-commerce App',
-    description: 'A MERN stack e-commerce app with user authentication, product catalog, and shopping cart.',
+    title: 'coaching website',
+    description: 'A full stack coaching website user can register and login and download study material and  do live class,and also provide admin dashboard features',
     github: 'https://github.com/abhyaskumar/ecommerce-app',
-    demo: '#',
-    tech: ['MERN', 'JWT Auth', 'Stripe Payments'],
+    demo: 'https://restartcareeracademy.free.nf/?i&i=1',
+    tech: ['HTML', 'CSS', 'JS' , 'PHP', 'SQL' ],
   },
   {
-    title: 'Blog Platform',
-    description: 'A full-stack blog platform where users can post, edit, and comment on articles.',
+    title: 'Travel Website',
+    description: 'A group project where i work on frontend and develop a layout of the project using html,css,js',
     github: 'https://github.com/abhyaskumar/blog-platform',
-    demo: '#',
-    tech: ['Node.js', 'Express', 'MongoDB', 'EJS'],
+    demo: 'https://tripmaster.netlify.app/',
+    tech: ['HTML', 'CSS', 'Bootstrap', 'JS', 'Firebase'],
   },
    {
     title: 'Portfolio Website',

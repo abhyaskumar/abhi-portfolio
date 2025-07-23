@@ -3,36 +3,36 @@ import { FaQuoteLeft } from 'react-icons/fa';
 
 const testimonials = [
   {
-    name: 'John Doe',
-    role: 'CEO at Example Inc.',
+    name: 'Karan kumar',
+    role: 'programmer',
     feedback:
       'Working with Abhyas was a great experience. His skills and dedication to delivering high-quality work are truly impressive.',
-    image: '/images/testimonial1.jpg',
+    image: '/images/Abhyas.jpg',
   },
   {
-    name: 'Jane Smith',
-    role: 'Product Manager at Startup Co.',
+    name: 'vivek kumar',
+    role: 'freelancer',
     feedback:
       'Abhyas brings creative solutions and is always proactive. Highly recommended for any web development project!',
-    image: '/images/testimonial2.jpg',
+    image: '/images/vivek.jpg',
   },
   {
-    name: 'Rahul Verma',
+    name: 'Aalok kumar',
     role: 'Freelance Designer',
     feedback:
       'It was a pleasure collaborating with Abhyas. His technical expertise and communication made the project seamless.',
     image: '/images/testimonial3.jpg',
   },
   {
-    name: 'Anjali Singh',
+    name: 'Sourabh kumar',
     role: 'Software Engineer',
     feedback:
       'Abhyas is a very dedicated developer. His ability to solve complex problems is commendable!',
     image: '/images/testimonial4.jpg',
   },
   {
-    name: 'Michael Scott',
-    role: 'Regional Manager',
+    name: 'Uttam kumar',
+    role: 'graphics designer ',
     feedback:
       'His professionalism and timely delivery made the whole process easy and enjoyable. Highly recommended!',
     image: '/images/testimonial5.jpg',
