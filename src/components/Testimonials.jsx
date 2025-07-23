@@ -28,7 +28,7 @@ const testimonials = [
     role: 'Software Engineer',
     feedback:
       'Abhyas is a very dedicated developer. His ability to solve complex problems is commendable!',
-    image: '/images/testimonial4.jpg',
+    image: '/images/saurav.jpg',
   },
   {
     name: 'Uttam kumar',
