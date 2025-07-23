@@ -4,7 +4,7 @@ import { IoLogoFacebook } from 'react-icons/io5';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-950 text-white dark:bg-white dark:text-black py-10 px-4 text-center space-y-6">
+    <footer className="bg-gray-900 text-white dark:bg-white dark:text-black py-10 px-4 text-center space-y-6">
       
       {/* Logo / Name */}
       <h2 className="text-3xl font-bold text-white dark:text-black">Abhyas.</h2>

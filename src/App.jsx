@@ -8,6 +8,9 @@ import EducationTimeline from './components/Education';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Projects from './components/projects';
+import Testimonials from './components/Testimonials';
+
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -24,6 +27,8 @@ function App() {
         <About />
         <EducationTimeline />
         <Skills />
+        <Projects />
+        <Testimonials />
         <Contact />
         <Footer />
       </div>
