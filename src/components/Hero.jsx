@@ -60,7 +60,7 @@ const Hero = () => {
                   </a>
                 </li>
                 <li className='text-2xl p-2 border border-white rounded-full hover:scale-110 duration-200 cursor-pointer'>
-                  <a href="https://instagram.com/abhyas_kr" target="_blank" rel="noopener noreferrer">
+                  <a href="https://instagram.com/kr+__abhyas" target="_blank" rel="noopener noreferrer">
                     <IoLogoInstagram />
                   </a>
                 </li>
