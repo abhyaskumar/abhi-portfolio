@@ -23,27 +23,6 @@ const projects = [
     demo: 'https://tripmaster.netlify.app/',
     tech: ['HTML', 'CSS', 'Bootstrap', 'JS', 'Firebase'],
   },
-   {
-    title: 'Portfolio Website',
-    description: 'My personal portfolio website built with React, TailwindCSS, and React Icons, showcasing my skills and projects.',
-    github: 'https://github.com/abhyaskumar',
-    demo: '#Home', // you can replace with live URL if hosted
-    tech: ['React', 'TailwindCSS', 'Dark Mode', 'Responsive'],
-  },
-  {
-    title: 'E-commerce App',
-    description: 'A MERN stack e-commerce app with user authentication, product catalog, and shopping cart.',
-    github: 'https://github.com/abhyaskumar/ecommerce-app',
-    demo: '#',
-    tech: ['MERN', 'JWT Auth', 'Stripe Payments'],
-  },
-  {
-    title: 'Blog Platform',
-    description: 'A full-stack blog platform where users can post, edit, and comment on articles.',
-    github: 'https://github.com/abhyaskumar/blog-platform',
-    demo: '#',
-    tech: ['Node.js', 'Express', 'MongoDB', 'EJS'],
-  },
 ];
 
 const Projects = () => {
