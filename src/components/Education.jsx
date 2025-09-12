@@ -66,7 +66,7 @@ const EducationTimeline = () => {
               <h3 className="text-xl font-semibold">Bachelors Degree – Dr Shyama Prasad Mukherjee University Ranchi</h3>
               <p className="text-sm mt-1">
                 B.Sc in Computer Application<br />
-                GPA: 8.62 / 10
+                Percentage: 84.04%
               </p>
             </div>
           </motion.div>
