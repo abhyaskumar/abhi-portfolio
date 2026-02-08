@@ -39,9 +39,11 @@ const Hero = () => {
             backSpeed={50}
             loop
           />
+          <p className='mt-4 font-sans font-bold text-2xl text-sky-400'>
+            Placed at Tata Consultancy Service(TCS)
+          </p>
           <p className='mt-4 font-sans font-semibold'>
-            I am a passionate full stack Web Developer with one years of experience in creating stunning
-            web applications.
+            I am a passionate full stack Web Developer with two years of experience and work in TCS as a Graduate Trainnee.
           </p>
 
           {/* Social Section */}
@@ -54,7 +56,7 @@ const Hero = () => {
                     href="https://api.whatsapp.com/send?phone=919693040766&text=Hi%20Abhyas!%20I%20visited%20your%20portfolio."
                     target="_blank"
                     rel="noopener noreferrer"
-                    
+
                   >
                     <FaWhatsapp />
                   </a>
@@ -129,12 +131,12 @@ const Hero = () => {
             <span className="absolute inset-0 w-0 bg-sky-600 transition-all duration-300 ease-out group-hover:w-full"></span>
             <span className="relative z-10 group-hover:text-black text-white dark:text-black">Download CV</span>
           </a>
-          
+
         </div>
       </div>
-      
+
     </div>
-    
+
   );
 };
 

@@ -2,6 +2,13 @@ import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
+    {
+    title: 'School Website',
+    description: 'A school website which is created by using React js and tailwind css. It is Frontend school website which is hosted in hostinger',
+    github: 'https://github.com/abhyaskumar',
+    demo: 'https://vspsbero.in/', 
+    tech: ['React', 'TailwindCSS', 'Responsive'],
+  },
   {
     title: 'Portfolio Website',
     description: 'My personal portfolio website built with React, TailwindCSS, and React Icons, showcasing my skills and projects.',
@@ -36,7 +43,7 @@ const Projects = () => {
         My <span className="text-sky-400">Projects</span>
       </h2>
 
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -82,4 +89,3 @@ const Projects = () => {
 };
 
 export default Projects;
-++++

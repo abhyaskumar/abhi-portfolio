@@ -18,7 +18,7 @@ const Navbar = ({ toggleDarkMode, isDarkMode }) => {
         <div className="flex items-center gap-x-4">
           {/* Desktop Menu */}
           <ul className='hidden md:flex justify-between gap-x-10 mr-2'>
-            {["Home", "About", "Education", "Skills", "Projects", "Contact"].map((section) => (
+            {["Home", "About", "Education","Achievements", "Skills", "Projects", "Contact"].map((section) => (
               <li key={section} className="cursor-pointer text-[18px] hover:text-sky-400">
                 <Link to={section} smooth={true} duration={500}>{section === "Contact" ? "Contact us" : section}</Link>
               </li>
@@ -55,8 +55,11 @@ const Navbar = ({ toggleDarkMode, isDarkMode }) => {
               <Link to="Education" smooth={true} duration={500} onClick={toggleMenu}>Education</Link>
             </li>
             <li className="cursor-pointer hover:text-gray-500 dark:hover:text-gray-300 transition">
-              <Link to="Skills" smooth={true} duration={500}  spy={true}
-  hashSpy={true} onClick={toggleMenu}>Skills</Link>
+              <Link to="Achievement" smooth={true} duration={500} onClick={toggleMenu}>Achievements</Link>
+            </li>
+            <li className="cursor-pointer hover:text-gray-500 dark:hover:text-gray-300 transition">
+              <Link to="Skills" smooth={true} duration={500} spy={true}
+                hashSpy={true} onClick={toggleMenu}>Skills</Link>
             </li>
             <li className="cursor-pointer hover:text-gray-500 dark:hover:text-gray-300 transition">
               <Link to="Projects" smooth={true} duration={500} onClick={toggleMenu}>Projects</Link>

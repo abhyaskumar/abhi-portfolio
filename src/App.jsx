@@ -10,6 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Projects from './components/projects';
 import Testimonials from './components/Testimonials';
+import Achievements from "./components/Achievement";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Hero />
         <About />
         <EducationTimeline />
+        <Achievements />
         <Skills />
         <Projects />
         <Testimonials />
