@@ -26,10 +26,10 @@ function App() {
         <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />
         <Hero />
         <About />
+        <Projects />
         <EducationTimeline />
         <Achievements />
         <Skills />
-        <Projects />
         <Testimonials />
         <Contact />
         <Footer />

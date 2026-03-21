@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaTrophy, FaExternalLinkAlt } from "react-icons/fa";
 
 const achievements = [
@@ -21,6 +21,8 @@ const achievements = [
 ];
 
 const Achievements = () => {
+  const [showGallery, setShowGallery] = useState(false);
+
   return (
     <div
       id="Achievements"
@@ -31,19 +33,18 @@ const Achievements = () => {
         My <span className="text-sky-400">Achievements</span>
       </h2>
 
-      {/* Timeline container */}
+      {/* Timeline */}
       <div className="relative border-l-4 border-sky-500 ml-4 md:ml-10">
-
         {achievements.map((item, index) => (
           <div key={index} className="mb-12 ml-6 md:ml-12 relative">
-
-            {/* Timeline Icon */}
+            
+            {/* Icon */}
             <span className="absolute -left-6 md:-left-8 flex items-center justify-center w-10 h-10 bg-sky-600 rounded-full ring-8 ring-[#0f1115] dark:ring-white">
               <FaTrophy />
             </span>
 
             {/* Card */}
-            <div className="bg-gray-800 dark:bg-gray-100 text-white dark:text-black p-6 rounded-xl shadow-lg hover:scale-105 transition-transform duration-300">
+            <div className="bg-gray-800 dark:bg-gray-100 text-white dark:text-black p-6 rounded-xl shadow-lg  transition-transform duration-300">
 
               {/* Title + Year */}
               <div className="flex justify-between items-center mb-2">
@@ -62,8 +63,8 @@ const Achievements = () => {
               </span>
 
               {/* Button */}
-              {item.link !== "#" && (
-                <div>
+              <div>
+                {item.link !== "#" ? (
                   <a
                     href={item.link}
                     target="_blank"
@@ -72,14 +73,48 @@ const Achievements = () => {
                   >
                     <FaExternalLinkAlt /> Learn More
                   </a>
-                </div>
-              )}
+                ) : (
+                  <button
+                    onClick={() => setShowGallery(true)}
+                    className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white px-4 py-2 rounded-lg text-sm"
+                  >
+                    <FaExternalLinkAlt /> Learn More
+                  </button>
+                )}
+              </div>
 
             </div>
           </div>
         ))}
-
       </div>
+
+      {/* 🔥 Modal Gallery */}
+      {showGallery && (
+        <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50">
+          
+          {/* Close Button */}
+          <button
+            onClick={() => setShowGallery(false)}
+            className="absolute top-5 right-5 text-white text-3xl"
+          >
+            ✖
+          </button>
+
+{/* Images */}
+<div className="bg-white p-6 rounded-lg grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl">
+
+  <img src="/images/g12.jpeg" className="w-full h-48 object-cover rounded-lg" />
+  <img src="/images/g1.jpeg" className="w-full h-48 object-cover rounded-lg" />
+  <img src="/images/g5.jpeg" className="w-full h-48 object-cover rounded-lg" />
+
+  <img src="/images/g5.jpeg" className="w-full h-48 object-cover rounded-lg" />
+  <img src="/images/g13.jpeg" className="w-full h-48 object-cover rounded-lg" />
+  <img src="/images/g3.jpeg" className="w-full h-48 object-cover rounded-lg" />
+
+</div>
+
+        </div>
+      )}
     </div>
   );
 };

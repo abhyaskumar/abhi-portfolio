@@ -34,16 +34,16 @@ const Hero = () => {
           <h1 className='text-4xl md:text-4xl font-bold'>I am a Passionate</h1>
           <ReactTyped
             className='text-sky-400 text-4xl md:text-4xl font-bold'
-            strings={["Full stack web developer", "Programmer", "Coder", "Freelancer"]}
+            strings={["Full stack web developer","Software Engineer @TCS", "Programmer"]}
             typeSpeed={40}
             backSpeed={50}
             loop
           />
           <p className='mt-4 font-sans font-bold text-2xl text-sky-400'>
-            Placed at Tata Consultancy Service(TCS)
+            
           </p>
           <p className='mt-4 font-sans font-semibold'>
-            I am a passionate full stack Web Developer with two years of experience and work in TCS as a Graduate Trainnee.
+            Currently working as a Software Engineer at TCS,focusing on full stack development and real word project experience.
           </p>
 
           {/* Social Section */}
@@ -119,7 +119,7 @@ const Hero = () => {
           >
             <span className="absolute inset-0 bg-sky-600 transition-transform duration-500 ease-in-out transform group-hover:translate-x-full"></span>
             <span className="relative z-10 group-hover:text-white dark:group-hover:text-black text-black  transition duration-300">
-              Hire me
+              Contact me
             </span>
           </a>
 
