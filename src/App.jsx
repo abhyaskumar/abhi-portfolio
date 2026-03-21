@@ -30,7 +30,6 @@ function App() {
         <EducationTimeline />
         <Achievements />
         <Skills />
-        <Testimonials />
         <Contact />
         <Footer />
       </div>
