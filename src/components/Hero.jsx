@@ -34,7 +34,7 @@ const Hero = () => {
           <h1 className='text-4xl md:text-4xl font-bold'>I am a Passionate</h1>
           <ReactTyped
             className='text-sky-400 text-4xl md:text-4xl font-bold'
-            strings={["Full stack web developer","Software Engineer @TCS", "Programmer"]}
+            strings={["Full stack web developer","Freelancer", "Programmer"]}
             typeSpeed={40}
             backSpeed={50}
             loop
